@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0041)http://localhost:8080/SCPlat/Outline1.jsp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>编写大纲</title>
+<link rel="stylesheet" type="text/css" href="./编写大纲_files/bootstrap-3.3.7.min.css">
+<link rel="stylesheet" type="text/css" href="./编写大纲_files/bootstrap-treeview.min.css">
+<link rel="stylesheet" type="text/css" href="./编写大纲_files/outline.css">
+<script type="text/javascript" src="./编写大纲_files/jquery-3.3.1.js.下载"></script>
+<script type="text/javascript" src="./编写大纲_files/bootstrap-3.3.7.min.js.下载"></script>
+	<script type="text/javascript" src="./编写大纲_files/bootstrap-treeview.min.js.下载"></script>
+	<script type="text/javascript" src="./编写大纲_files/outline.js.下载"></script>
+
+<style type="text/css" id="tree-style"> .treeview .list-group-item{cursor:pointer}.treeview span.indent{margin-left:10px;margin-right:10px}.treeview span.icon{width:12px;margin-right:5px}.treeview .node-disabled{color:silver;cursor:not-allowed}.node-tree{}.node-tree:not(.node-disabled):hover{background-color:#F5F5F5;} </style></head>
+<body>
+	<div class="container-fluid">
+		<div class="outlineContainer">
+			<div class="outline-top"><span>编写大纲:</span></div>
+			<hr class="outline-hr1">
+			<div class="outline-center">
+				<div class="row">
+				  <div class="col-md-4">
+				  	<div class="outline-bigBtn outline-edit">
+				  		<div class="outline-bigBtnCon-left">
+				  			<span class="glyphicon glyphicon-pencil"></span>
+				  		</div>
+				  		<div class="outline-bigBtnCon-right">
+				  			<span><h4>在线编写</h4></span>
+				  			<span>在线编写大纲内容</span>
+				  		</div>
+				  	</div>	 
+				  </div>
+				  <div class="col-md-4">
+				  	<div class="outline-bigBtn outline-import">
+				  		<div class="outline-bigBtnCon-left">
+				  			<span class="glyphicon glyphicon-import"></span>
+				  		</div>
+				  		<div class="outline-bigBtnCon-right">
+				  			<span><h4>导入模板</h4></span>
+				  			<span>从系统已有的模板中选择已有的模板内容</span>
+				  		</div>
+				  	</div>
+				  </div>
+				  <div class="col-md-4">
+				  </div>
+				</div>
+			</div>
+			<div class="outline-detail"></div>
+			<!-- 编写大纲 -->
+			<div id="outline-editCon">
+					<div class="outline-bottom">
+						<div class="ob-top">
+							<span>大纲</span>
+						</div>
+						<div class="ob-bottom">
+							<div class="ob-bottom-left">
+								<div id="tree" class="treeview"><ul class="list-group"><li class="list-group-item node-tree" data-nodeid="0" style="color:undefined;background-color:undefined;"><span class="icon expand-icon glyphicon glyphicon-minus"></span><span class="icon node-icon"></span>1 标题文字<span class="glyphicon glyphicon-pencil" title="编辑"></span><span class="glyphicon glyphicon-remove" title="删除"></span><span class="glyphicon glyphicon-plus" title="添加子节点"></span><span class="glyphicon glyphicon-plus" title="添加同级节点"></span></li><li class="list-group-item node-tree" data-nodeid="1" style="color:undefined;background-color:undefined;"><span class="indent"></span><span class="icon glyphicon"></span><span class="icon node-icon"></span>1.1 标题文字<span class="glyphicon glyphicon-pencil" title="编辑"></span><span class="glyphicon glyphicon-remove" title="删除"></span><span class="glyphicon glyphicon-plus" title="添加子节点"></span><span class="glyphicon glyphicon-plus" title="添加同级节点"></span></li><li class="list-group-item node-tree" data-nodeid="2" style="color:undefined;background-color:undefined;"><span class="indent"></span><span class="icon glyphicon"></span><span class="icon node-icon"></span>1.2 标题文字<span class="glyphicon glyphicon-pencil" title="编辑"></span><span class="glyphicon glyphicon-remove" title="删除"></span><span class="glyphicon glyphicon-plus" title="添加子节点"></span><span class="glyphicon glyphicon-plus" title="添加同级节点"></span></li><li class="list-group-item node-tree" data-nodeid="3" style="color:undefined;background-color:undefined;"><span class="indent"></span><span class="icon glyphicon"></span><span class="icon node-icon"></span>1.3 标题文字<span class="glyphicon glyphicon-pencil" title="编辑"></span><span class="glyphicon glyphicon-remove" title="删除"></span><span class="glyphicon glyphicon-plus" title="添加子节点"></span><span class="glyphicon glyphicon-plus" title="添加同级节点"></span></li><li class="list-group-item node-tree" data-nodeid="4" style="color:undefined;background-color:undefined;"><span class="icon expand-icon glyphicon glyphicon-minus"></span><span class="icon node-icon"></span>2 标题文字<span class="glyphicon glyphicon-pencil" title="编辑"></span><span class="glyphicon glyphicon-remove" title="删除"></span><span class="glyphicon glyphicon-plus" title="添加子节点"></span><span class="glyphicon glyphicon-plus" title="添加同级节点"></span></li><li class="list-group-item node-tree" data-nodeid="5" style="color:undefined;background-color:undefined;"><span class="indent"></span><span class="icon glyphicon"></span><span class="icon node-icon"></span>2.1 标题文字<span class="glyphicon glyphicon-pencil" title="编辑"></span><span class="glyphicon glyphicon-remove" title="删除"></span><span class="glyphicon glyphicon-plus" title="添加子节点"></span><span class="glyphicon glyphicon-plus" title="添加同级节点"></span></li><li class="list-group-item node-tree" data-nodeid="6" style="color:undefined;background-color:undefined;"><span class="indent"></span><span class="icon glyphicon"></span><span class="icon node-icon"></span>2.2 标题文字<span class="glyphicon glyphicon-pencil" title="编辑"></span><span class="glyphicon glyphicon-remove" title="删除"></span><span class="glyphicon glyphicon-plus" title="添加子节点"></span><span class="glyphicon glyphicon-plus" title="添加同级节点"></span></li><li class="list-group-item node-tree" data-nodeid="7" style="color:undefined;background-color:undefined;"><span class="indent"></span><span class="icon expand-icon glyphicon glyphicon-plus"></span><span class="icon node-icon"></span>2.3 标题文字<span class="glyphicon glyphicon-pencil" title="编辑"></span><span class="glyphicon glyphicon-remove" title="删除"></span><span class="glyphicon glyphicon-plus" title="添加子节点"></span><span class="glyphicon glyphicon-plus" title="添加同级节点"></span></li><li class="list-group-item node-tree" data-nodeid="11" style="color:undefined;background-color:undefined;"><span class="icon glyphicon"></span><span class="icon node-icon"></span>3 标题文字<span class="glyphicon glyphicon-pencil" title="编辑"></span><span class="glyphicon glyphicon-remove" title="删除"></span><span class="glyphicon glyphicon-plus" title="添加子节点"></span><span class="glyphicon glyphicon-plus" title="添加同级节点"></span></li></ul></div>
+							</div>
+							<div class="ob-bottom-right"></div>
+						</div>
+					</div>
+					<div class="outline-btnGroup">
+							 <button type="button" class="btn btn-info">确定</button>
+							 <button type="button" class="btn btn-default">返回</button>
+					</div>
+			</div>
+			<!-- 导入模板 -->
+			<div id="outline-importCon">
+			        <div>abcdefghi</div>
+					<div class="outline-btnGroup">
+							 <button type="button" class="btn btn-info">确定</button>
+							 <button type="button" class="btn btn-default">返回</button>
+					</div>
+			</div>		
+		</div>
+	</div>
+	<script type="text/javascript">
+			$(function () {
+		        $.ajax({
+		            type: "post",
+		            url: "outline/test.json",
+		            dataType: "json",
+		            success: function (result) { 
+		            	$('#tree').treeview({
+		                    data: result.tree,         // 数据源
+		                    highlightSelected: true,    //是否高亮选中
+		                    levels:2,
+		                    showTags:true,
+		                }); 
+	  	                $("#tree ul li").each(function(){
+			                $(this).append("<span class='glyphicon glyphicon-pencil' title='编辑'></span>").append("<span class='glyphicon glyphicon-remove' title='删除'></span>").append("<span class='glyphicon glyphicon-plus' title='添加子节点'></span>").append("<span class='glyphicon glyphicon-plus' title='添加同级节点'></span>");
+			             });
+		            },
+		            error: function () {
+		                alert("树形结构加载失败！")
+		            }
+		        });
+		    }); 
+			$(".outline-edit").click(function(){
+				$(".outline-detail").html($("#outline-editCon").html());
+				//$("#outline-editCon").show();
+			});
+			$(".outline-import").click(function(){
+				$(".outline-detail").html($("#outline-importCon").html());
+				/* $("#outline-importCon").show(); */
+			});
+	</script>
+
+</body></html>
